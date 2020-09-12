@@ -68,7 +68,7 @@ const App = () => {
   }
 
   const handleLogout = () => {
-    fire.auth().signout();
+    fire.auth().signOut();
 
   };
 
@@ -109,6 +109,9 @@ const App = () => {
 
       />
       )}
+
+
+    
      
       
     </div>
